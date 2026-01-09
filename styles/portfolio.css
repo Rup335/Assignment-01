@@ -430,9 +430,16 @@ hr {
 
 
 
+button, .btn, .banner-btnone, .banner-btntwo, .banner-btnthree, #ready button {
+    transition: box-shadow 1px, background-color : 2px, color : 2px; 
+}
 
 
-
+button:hover, .btn:hover, #ready button:hover ,#banner .banner-content .banner-btnone:hover , #banner .banner-content .banner-btntwo:hover ,#banner .banner-content .banner-btnthree:hover{
+    box-shadow: 0 5px 10px rgba(0,0,0,1);
+    background-color: #ffffff59;
+    color: #08391d;
+}
 
 
 
