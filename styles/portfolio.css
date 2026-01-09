@@ -22,7 +22,7 @@ nav{
     gap: 346px;
     margin: 0px auto;
     flex-wrap: nowrap;
-    
+    gap: 50px;
     
 
 }
@@ -49,9 +49,17 @@ nav .menu a{
     text-decoration: none;
     cursor: pointer;
     display: nowrap;
+    flex-wrap: wrap;
     
 
 }
+
+nav .logo, .menu a,.btn {
+    flex-shrink: 0;
+}
+
+
+
 
 nav .btn{
     background-color: #30B868;
