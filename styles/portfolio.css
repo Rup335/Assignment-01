@@ -22,6 +22,7 @@ nav{
     justify-content: space-between;
     gap: 346px;
     margin: 0px auto;
+    flex-wrap: nowrap;
     
     
 
@@ -38,6 +39,7 @@ nav .menu{
     list-style-type: none;
     gap: 35px;
     align-items: center;
+    cursor: pointer;
     
 
 }
@@ -46,6 +48,8 @@ nav .menu a{
     font-size: 16px;
     color: #000000;
     text-decoration: none;
+    cursor: pointer;
+    display: nowrap;
     
 
 }
@@ -85,42 +89,61 @@ nav .btn{
     
 }
 
-#banner .banner-content .banner-btnone{
-    margin-bottom: 16px;
-    
+#banner .banner-content .banner-btnone {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #ffffff;
+  color: #30B868;
+  padding: 10px 18px;
+  border-radius: 999px; 
+  border: none;
+  font-size: 16px;
+  font-weight: bolder;
+  cursor: pointer;
 }
 
-#banner .banner-content .banner-actions{
+#banner .banner-content .banner-btnone .dot {
+  width: 10px;
+  height: 10px;
+  background-color: #30B868;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #EAF7F0; 
+}
+
+
+#banner .banner-content .banner-actions {
+    display: flex;
     gap: 16px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
 }
 
-#banner .banner-content .banner-btntwo{
-    margin-top: 32px;
-        background-color: #30b868;
+#banner .banner-content .banner-btntwo {
+    background-color: #30b868;
     color: #FFFFFF;
     max-width: 251px;
     font-size: 16px;
     cursor: pointer;
+    font-weight: bold;
     border: none;
-    padding:16px;
+    padding: 16px;
     border-radius: 5px;
-    margin: 16px 120px 16px 0;
-   
-    
 }
-#banner .banner-content .banner-btnthree{
-    margin-bottom: 32px;
+
+#banner .banner-content .banner-btnthree {
     background-color: transparent;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
     max-width: 198px;
     font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
-    border: solid #FFFFFF;
-    color: #FFFFFF;
-    padding:16px;
+    padding: 16px;
     border-radius: 5px;
-    margin: 16px 120px 16px 0;
-    
 }
+
 
     #banner .banner-content p{
         font-size: 18px;
@@ -148,7 +171,7 @@ nav .btn{
 #card{
     padding-top: 60px;
     height: 448px;
-    border: 1px solid red;
+   
 }
 
 #card .card-container{
@@ -172,10 +195,11 @@ color: #001931;
    display: flex;
    gap: 24px;
    padding-top: 44px;
-   margin-left: 120px;
-   margin-right: 120px;
-   
+   max-width: 1360px;
+   margin: 0 auto;
+   justify-content: center;
 }
+
 
 
 #card .card-container .card-info .card-box{
@@ -217,20 +241,23 @@ color: #001931;
 #note{
     width: 100%;
     height: 840px;
-    padding: 120px;
-    
-
+    padding: 120px 0;
 }
+
 
 #note .note-container{
     display: flex;
     width: 100%;
     max-width: 1360px;
+    margin: 0 auto;
+
     height: 600px;
     gap: 60px;
     padding-bottom: 102px;
     padding-top: 102px;
 }
+
+
 #note .note-container .note-pic{
    width: 600px;
    height: 600px;
@@ -274,12 +301,14 @@ height: 20px;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 120px;
     background-color: #F7F6F2;
-    width: 1300px;
     height: 384px;
-    margin: 120px;
+    max-width: 1300px;
+    margin: 120px auto;
+      border: none;
+  border-radius: 12px;
 }
+
  #ready h2{
     height:48;
    padding-top: 80px;
@@ -305,12 +334,14 @@ height: 20px;
     font-weight: bolder;
     display: inline-flex;
     font-size: 16px;
+    cursor: pointer;
 
 }
 
 #ready .btns img{
 align-items: center;
 text-align: center;
+
     
 
 }
@@ -318,6 +349,7 @@ footer {
   background-color: #001931;
   color: white;
   padding: 120px 120px 30px 120px;
+  border: none;
 }
 
 
@@ -378,7 +410,7 @@ footer {
 }
 
 hr {
-  margin: 85px auto 30px auto; /* 85px from logo to hr */
+  margin: 85px auto 30px auto; 
   width: 100%;
   max-width: 1200px;
   border: 0.5px solid #193b6d;
@@ -390,7 +422,7 @@ hr {
   text-align: center;
   font-size: 16px;
   color: #FAFAFA;
-  padding-top: 30px;   /* moves text up */
+  padding-top: 30px;   
   line-height: 24px;
 }
 
