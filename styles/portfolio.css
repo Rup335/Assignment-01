@@ -10,18 +10,19 @@
 
 header{
     background-color: #FFFFFF;
-     
+    
 
 }
 
 nav{
     width: 100%;
-    max-width: 1600px;
+    /* max-width: 1600px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 346px;
     margin: 0px auto;
+    
     
 
 }
@@ -50,7 +51,7 @@ nav .menu a{
 }
 
 nav .btn{
-    background-color: #30B686;
+    background-color: #30B868;
     color: #FFFFFF;
     max-width: 164px;
     font-size: 16px;
@@ -61,3 +62,263 @@ nav .btn{
     margin: 16px 120px 16px 0;
    
 }
+
+#banner {
+    width: 100%;
+    height: 674px; 
+    display: flex;
+    justify-content: center;  
+      background-position: center;
+    text-align: center;
+    background-image: url("../assets/hero-bg.png");
+    background-size: cover;
+    
+    
+}
+
+#banner .banner-content {
+    width: 100%;     
+    background-repeat: no-repeat;
+    padding-top: 115.5px;
+    padding-bottom: 180px;
+
+    
+}
+
+#banner .banner-content .banner-btnone{
+    margin-bottom: 16px;
+    
+}
+
+#banner .banner-content .banner-actions{
+    gap: 16px;
+}
+
+#banner .banner-content .banner-btntwo{
+    margin-top: 32px;
+        background-color: #30b868;
+    color: #FFFFFF;
+    max-width: 251px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    padding:16px;
+    border-radius: 5px;
+    margin: 16px 120px 16px 0;
+   
+    
+}
+#banner .banner-content .banner-btnthree{
+    margin-bottom: 32px;
+    background-color: transparent;
+    max-width: 198px;
+    font-size: 16px;
+    cursor: pointer;
+    border: solid #FFFFFF;
+    color: #FFFFFF;
+    padding:16px;
+    border-radius: 5px;
+    margin: 16px 120px 16px 0;
+    
+}
+
+    #banner .banner-content p{
+        font-size: 18px;
+        color: #FFFFFF;
+        line-height: 30px;
+        
+
+}
+    #banner .banner-content h1{
+        font-size: 70px;
+        
+       
+
+}
+
+.green{
+    color: #30B868;
+}
+
+.white{
+    color: #FFFFFF;
+}
+
+
+#card{
+    padding-top: 60px;
+    height: 448px;
+    border: 1px solid red;
+}
+
+#card .card-container{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFFFFF;
+
+}
+
+
+
+#card .card-container .card-header h2{
+    font-size: 48px;
+padding-bottom: 16px ;
+color: #001931;
+}
+
+
+#card .card-container .card-info{
+   display: flex;
+   gap: 24px;
+   padding-top: 44px;
+   margin-left: 120px;
+   margin-right: 120px;
+   
+}
+
+
+#card .card-container .card-info .card-box{
+   width: 100%;
+    max-width: 322px;
+   height: 300px;
+   border: 1px solid black;
+   padding: 24px;
+   align-items: center;
+   border-radius: 5px;
+   border: none;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  
+}
+
+
+.card-box img {
+    width: 32px;
+    padding: 12px;
+    background-color: #eafaf4;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    background-color: #F94444;
+    margin: 70px 131px 17px 131px;
+}
+
+#card .card-container .card-info .card-box h3{
+    color: #001931;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+#card .card-container .card-info .card-box p{
+    color: #627382;
+    font-size: 16px;
+   line-height: 20px;
+}
+
+#note{
+    width: 100%;
+    height: 840px;
+    padding: 120px;
+    
+
+}
+
+#note .note-container{
+    display: flex;
+    width: 100%;
+    max-width: 1360px;
+    height: 600px;
+    gap: 60px;
+    padding-bottom: 102px;
+    padding-top: 102px;
+}
+#note .note-container .note-pic{
+   width: 600px;
+   height: 600px;
+   background-color: #FFFFFF;
+}
+
+#note .note-container .note-text{
+    padding: 100px;
+}
+
+#note .note-container .note-text .note-header h4{
+font: 16px;
+color: #30B868;
+line-height: 20px;
+}
+
+#note .note-container .note-text .note-header h2{
+font-size: 48px;
+font-weight: bold;
+color: #001931;
+}
+#note .note-container .note-text .note-header p{
+font-size: 16px;
+padding-top: 16px;
+padding-bottom: 40px;
+color: #627382;
+}
+#note .note-container .note-text .note-list li {
+list-style: none;
+display: flex;
+gap: 6px;
+padding-bottom: 18px;
+}
+#note .note-container .note-text .note-list li img {
+
+width: 20px;
+height: 20px;
+}
+
+#ready{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 120px;
+    background-color: #F7F6F2;
+    width: 1300px;
+    height: 384px;
+    margin: 120px;
+}
+ #ready h2{
+    height:48;
+   padding-top: 80px;
+   padding-bottom: 16px;
+    line-height: 16px;
+    font-size: 40px;
+    color: #001931;
+ }
+
+ #ready p{
+    padding-bottom: 24px;
+    color:#627382;
+    font-size:16px;
+ }
+#ready button{
+    margin-top:24px;
+    margin-bottom: 16px;
+    background-color: #30B868;
+    padding: 12px 12px;
+    border: none;
+    color: #FFFFFF;
+    border-radius:4px;
+    font-weight: bolder;
+    display: inline-flex;
+    font-size: 16px;
+
+}
+
+#ready .btns img{
+align-items: center;
+text-align: center;
+    
+
+}
+
+
+
+
+
+
+
+
